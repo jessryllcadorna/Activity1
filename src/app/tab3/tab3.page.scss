@@ -1,0 +1,39 @@
+.hd{
+    --background: gray;
+    color: blue;
+}
+.body{
+    --background: #c0c0c0;
+}
+.con{
+    --background: white;
+    width: 35%;
+    height: 500px;
+    float: left;
+    margin-left: 15%;
+    overflow: auto;
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+.accnt{
+    float: left;
+    width: 15%;
+}
+.accnt1{
+    float: left;
+    width: 80%;
+    font-size: 25px;
+    font-family: 'Lucida Sans Regular';
+}
+.cnt{
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+}
+b{
+    font-size: 25px;
+    font-family: 'Lucida Sans Regular';  
+    color: blue; 
+}

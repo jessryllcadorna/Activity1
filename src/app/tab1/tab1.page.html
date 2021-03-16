@@ -1,17 +1,52 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar class="hd"> 
     <ion-title>
-      Tab 1
+      My Profile
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+<ion-content [fullscreen]="true" class="body">
+  <center>
+    <ion-toolbar class="body">
+      <img src="assets/img/jess.jpg">
     </ion-toolbar>
-  </ion-header>
+    <b class="name">Jessryll Almacin Cadorna</b>
+  </center>
+  <center>
+    <table border="0">
+      <tr>
+        <td>
+          <p>
+            <b class="name">Personal Background</b>
+          </p>
+      </tr>
+      <tr>
+        <td>
+          <b>Fullname: </b>Jessryll Almacin Cadorna <br>
+          <b>Nickname/s: </b>Jess - Jessy <br>
+          <b>Address:</b> Brgy. Hinugayan Barugo, Leyte <br>
+          <b>Sex: </b>Male <br>
+          <b>Birthday: </b>January 30, 1993 <br>
+          <b>Age: </b>28 <br>
+          <b>Zodiac Sign:</b> Aquarius <br>
+          <b>Religion:</b> Catholic
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            <b class="name">Educational Information</b>
+          </p>
+      </tr>
+      <tr>
+        <td>
+          <b>Studying at: </b>Eastern Visayas State University (EVSU-CC)<br>
+          <b>Course: </b>Bachelor of Science Information Technology (BSIT)<br>
+          <b>Section:</b> 2A <br>
+        </td>
+      </tr>
+    </table>
+  </center>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
