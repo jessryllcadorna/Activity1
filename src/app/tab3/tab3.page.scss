@@ -1,39 +1,33 @@
-.hd{
+.head{
+    --background:  gray;
+    color: white;
+    font-weight: bolder;
+    font-size: 15%;
+    font-family: sans-serif;
+}
+ion-card{
     --background: gray;
-    color: blue;
 }
-.body{
-    --background: #c0c0c0;
-}
-.con{
-    --background: white;
-    width: 35%;
-    height: 500px;
-    float: left;
-    margin-left: 15%;
-    overflow: auto;
-}
-img{
-    width: 100%;
-    border-radius: 50%;
-}
-.accnt{
-    float: left;
-    width: 15%;
-}
-.accnt1{
-    float: left;
-    width: 80%;
+ion-title{
+    color: white;
+    font-weight: bolder;
     font-size: 25px;
-    font-family: 'Lucida Sans Regular';
+    font-family: sans-serif;
 }
-.cnt{
-    width: 100%;
-    float: left;
-    margin-top: 2%;
+ion-img{
+    margin-left: 65px;
+    height: 12%;
+    width: 12%;
+    float:left;
 }
-b{
-    font-size: 25px;
-    font-family: 'Lucida Sans Regular';  
-    color: blue; 
+ion-item{
+    --background:  #c0c0c0;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    margin-left:10px;
+}
+ion-button{
+    font-weight: bolder;
 }
